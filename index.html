@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Library - Book Catalog</title>
+    
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-brand">
+            <img src="./assets/book.svg" class="icon-logo" alt="Book"> The Library
+        </div>
+        <button class="theme-switch" id="themeToggle">
+            <span id="themeIcon">🌙</span> <span id="themeText">Dark Theme</span>
+        </button>
+    </header>
+
+    <main class="main-container">
+        
+        <!-- Left Column: Search & Results -->
+        <section class="content-section">
+            <div class="hero">
+                <h1>Find Your Next Book</h1>
+                <p>Search millions of books and create your personal library.</p>
+                
+                <div class="search-box">
+                    <div class="search-input-group">
+                        <img src="./assets/search.svg" class="icon-search" alt="Search">
+                        <input type="text" id="searchInput" placeholder="Enter title, author, or keyword..." autocomplete="off">
+                    </div>
+                    <div class="search-filters">
+                        <label><input type="radio" name="searchType" value="q" checked> Everywhere</label>
+                        <label><input type="radio" name="searchType" value="title"> By Title</label>
+                        <label><input type="radio" name="searchType" value="author"> By Author (Filter)</label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="resultsContainer" class="books-grid">
+                <div class="state-message">Start typing to search for books...</div>
+            </div>
+        </section>
+
+        <!-- Right Column: Favorites Sidebar -->
+        <aside class="sidebar-section">
+            <div class="favorites-panel">
+                <h2><img src="./assets/heart.svg" class="icon-heart" alt="Heart"> Favorites (<span id="favCount">0</span>)</h2>
+                <div id="favoritesList" class="fav-list">
+                    <!-- Favorites will be rendered here -->
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

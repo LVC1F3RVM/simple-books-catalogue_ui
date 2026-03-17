@@ -1,0 +1,16 @@
+{
+  "name": "simple-books-catalogue_ui",
+  "version": "1.0.0",
+  "description": "Simple books catalogue",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "vite-plugin-css-injected-by-js": "^4.0.1"
+  }
+}
