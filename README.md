@@ -11,6 +11,7 @@ You can find the full task description here: [Link to the Task Document](https:/
 - **Bonus:** "On-the-fly" search using debounce.
 - **Bonus:** Theme management (Light/Dark mode).
 - **Bonus:** Search filtering (by everywhere, title, or author).
+- **Bonus:** Depoyment using Vercel - [Link](https://simple-books-catalogueuivercel.vercel.app/).
 
 ## **How to run the app**
 

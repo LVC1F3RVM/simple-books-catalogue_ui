@@ -283,8 +283,12 @@ a { text-decoration: none; color: inherit; }
 
 /* ICONS (SVG) */
 .icon-logo {
+    display: inline-block;
     width: 28px;
     height: 28px;
+    background-color: var(--title);
+    -webkit-mask: url('../../assets/book.svg') no-repeat center / contain;
+    mask: url('../../assets/book.svg') no-repeat center / contain;
 }
 .icon-heart {
     width: 24px;
